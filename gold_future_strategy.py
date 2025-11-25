@@ -232,7 +232,7 @@ class GoldFutureStrategy:
             print("-" * 40)
 
 def main():
-    strategy = GoldFutureStrategy(symbol='GC=F', risk_reward_ratio=3.0)
+    strategy = GoldFutureStrategy(symbol='GC=F', risk_reward_ratio=2.0)
     end_date = datetime.now()
     start_date = end_date - timedelta(days=7)
     print("Stratégie GF")
